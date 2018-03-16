@@ -1,20 +1,6 @@
 module.exports = {
-  "home": {
-    "photoOne": {
-      "link": "gotgotgot",
-      "description": ""
-    },
-    "photoTwo": {
-      "link": "gotgotgot",
-      "description": ""
-    },
-    "photoThree": {
-      "link": "gotgotgot",
-      "description": ""
-    },
-    "photoFour": {
-      "link": "gotgotgot",
-      "description": ""
-    }
-  }
+  "how":"Come vuoi il tuo uovo oggi?",
+  "boiledEgg":"Uovo sodo",
+  "softBoiledEgg":"Uovo alla coque",
+  "choice":"Come scegliere l'uovo"
 }

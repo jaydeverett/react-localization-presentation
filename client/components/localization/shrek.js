@@ -1,20 +1,6 @@
 module.exports = {
-  "home": {
-    "photoOne": {
-      "link": "shrekshrek",
-      "description": ""
-    },
-    "photoTwo": {
-      "link": "shrekshrek",
-      "description": ""
-    },
-    "photoThree": {
-      "link": "shrekshrek",
-      "description": ""
-    },
-    "photoFour": {
-      "link": "shrekshrek",
-      "description": ""
-    }
-  }
+  "how":"How do you want your egg today?",
+  "boiledEgg":"Boiled egg",
+  "softBoiledEgg":"Soft-boiled egg",
+  "choice":"How to choose the egg"
 }
