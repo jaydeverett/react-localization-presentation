@@ -29,7 +29,6 @@ class PhotoGrid extends Component {
     this.setState({ language: lang })
   }
 
-  //declare a function -- can't set state from inside render
   render() {
     const language = this.state.language;
     let strings = new LocalizedStrings({ shrek, got })
@@ -42,22 +41,22 @@ class PhotoGrid extends Component {
       }
 
     }
-    console.log(translations);
+
     return (
       <div>
-          <div className="photo-grid">
-            {
-              translations.map((transText, index) => {
-                return <Photo key={index} val={transText} />
-              })
-            }
-            <button onClick={this.setGot}>GOT</button>
-            <button onClick={this.setShrek}>SHREK</button>
-          </div>
-
-          <h1>{this.state.language}</h1>
+        <div className="photo-grid">
+          {
+            translations.map((transText, index) => {
+              return <Photo key={index} val={transText} />
+            })
+          }
+        </div>
+        <div className="button-box">
+          <button onClick={this.setGot}>GOT</button>
+          <button onClick={this.setShrek}>SHREK</button>
+        </div>
+        <h1>{this.state.language}</h1>
       </div>
-
     )
   }
 }
