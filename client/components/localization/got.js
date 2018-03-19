@@ -1,26 +1,26 @@
 module.exports = {
-  photos: {
-    photoOne: {
+
+    "photoOne": {
       name: "got",
-      caption: "got",
-      display_src: "got"
+      caption: "Bros heading to battle in Westeros",
+      display_src: "got1"
     },
-    photoTwo: {
+    "photoTwo": {
       name: "got",
-      caption: "got",
-      display_src: "gota",
+      caption: "Hodor carrying Bran",
+      display_src: "got2",
     },
-    photoThree: {
+    "photoThree": {
       name: "got",
-      caption: "got",
-      display_src: "gotb"
+      caption: "Caring siblings",
+      display_src: "got3"
     },
-    photoFour: {
+    "photoFour": {
       name: "got",
-      caption: "got",
-      display_src: "gotc"
+      caption: "A Queen and her Dragon",
+      display_src: "got4"
     }
-  }
+
 }
 
 

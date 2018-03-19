@@ -1,34 +1,22 @@
 module.exports = {
-  photos: {
     photoOne: {
       name: "shrek",
       caption: "shrek",
-      display_src: "shrek"
+      display_src: "shrek1"
     },
     photoTwo: {
       name: "shrek",
       caption: "shrek",
-      display_src: "shreka"
+      display_src: "shrek2"
     },
     photoThree: {
       name: "shrek",
       caption: "shrek",
-      display_src: "shrekb"
+      display_src: "shrek3"
     },
     photoFour: {
       name: "shrek",
       caption: "shrek",
-      display_src: "shrekc"
+      display_src: "shrek4"
     }
-  }
 }
-
-
-
-
-// module.exports = {
-//   "how":"How do you want your egg today?",
-//   "boiledEgg":"Boiled egg",
-//   "softBoiledEgg":"Soft-boiled egg",
-//   "choice":"How to choose the egg"
-// }

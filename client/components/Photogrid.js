@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import Photo from './Photo';
-//import localization from './localization';
-//import got from './localization/got'
 import got from './localization/got'
 import shrek from './localization/shrek'
 
@@ -44,7 +42,7 @@ class PhotoGrid extends Component {
       }
 
     }
-
+    console.log(translations);
     return (
       <div>
           <div className="photo-grid">
@@ -53,10 +51,10 @@ class PhotoGrid extends Component {
                 return <Photo key={index} val={transText} />
               })
             }
-
+            <button onClick={this.setGot}>GOT</button>
+            <button onClick={this.setShrek}>SHREK</button>
           </div>
-         <button onClick={this.setGot} >GOT</button>
-         <button onClick={this.setShrek} >Shrek</button>
+
           <h1>{this.state.language}</h1>
       </div>
 
