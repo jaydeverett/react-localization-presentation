@@ -24,6 +24,13 @@ module.exports = {
       loaders: ['babel-loader'],
       include: path.join(__dirname, 'client')
     },
+    {
+      test: /\.(png|gif|jpe?g|svg)$/i,
+      loader: 'url-loader',
+      query: {
+        limit: 500000
+      }
+    },
     // CSS
     {
       test: /\.styl$/,

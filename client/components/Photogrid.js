@@ -34,33 +34,16 @@ class PhotoGrid extends Component {
   //declare a function -- can't set state from inside render
   render() {
     const language = this.state.language;
-    console.log(shrek);
     let strings = new LocalizedStrings({ shrek, got })
-    //  shrek:{
-    //    how:"How do you want your egg today?",
-    //    boiledEgg:"Boiled egg",
-    //    softBoiledEgg:"Soft-boiled egg",
-    //    choice:"How to choose the egg"
-    //  },
-    //  got: {
-    //    how:"Come vuoi il tuo uovo oggi?",
-    //    boiledEgg:"Uovo sodo",
-    //    softBoiledEgg:"Uovo alla coque",
-    //    choice:"Come scegliere l'uovo"
-    //  }
-    // });
 
     let translations = [];
 
     for (var property in strings._props[language] ) {
       if (strings._props[language].hasOwnProperty(property)) {
-        // <Photo {...this.props} key={i} i={i} post={property} chosenLanguage={this.state.language} />
         translations.push(strings._props[language][property])
       }
 
     }
-
-//    debugger;
 
     return (
       <div>
